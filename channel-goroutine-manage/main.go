@@ -34,7 +34,7 @@ func main() {
 		go async_task(&waitGroup, stopEvent, i)
 	}
 
-	// cancel goroutines after 10 seconds
+	// stop goroutines after 10 seconds
 	go func() {
 		log.Printf("wait for 10 seconds")
 		time.Sleep(time.Duration(10) * time.Second)

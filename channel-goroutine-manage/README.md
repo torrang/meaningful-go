@@ -1,4 +1,4 @@
-# basic-goroutine-manage
+# channel-goroutine-manage
 채널을 이용한 고루틴 관리 패턴
 
 ## 관리 방식
